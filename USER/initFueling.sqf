@@ -210,6 +210,14 @@ if (hasInterface) then {
 
 if (isServer) then {
 
+        { 
+            private _modelInfo = _x;
+            if (_modelInfo select 0 == "fuelstation_03_pump_f.p3d") then { 
+                _x hideObjectGlobal true;
+            };
+        } forEach (nearestTerrainObjects [[worldsize/2, worldsize/2], [], worldsize/2]);
+
+
         // [fuelSellPoint_east, 0] call ace_refuel_fnc_makeSource;
         fuelSellPoint_east setVariable ["ace_refuel_fuelMaxCargo", 1000000, true];
         fuelSellPoint_east setVariable ["ace_refuel_cargoRate", 200, true];

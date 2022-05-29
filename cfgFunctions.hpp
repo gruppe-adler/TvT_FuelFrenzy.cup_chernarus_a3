@@ -14,7 +14,6 @@ class CfgFunctions {
     #include "node_modules\grad-listbuymenu\cfgFunctions.hpp"
 	#include "node_modules\grad-fortifications\cfgFunctions.hpp"
     #include "node_modules\@gruppe-adler\replay\cfgFunctions.hpp"
-	#include "node_modules\grad-civs\cfgFunctions.hpp"
 
     #include "grad-leakage\cfgFunctions.hpp"
 };
