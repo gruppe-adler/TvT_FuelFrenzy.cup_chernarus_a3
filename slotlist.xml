@@ -1,0 +1,34 @@
+<match>
+  <company side="blufor" natosymbol="inf" callsign="Raiders" vehicletype="">
+    <slot shortcode="BOS" description="Boss" />
+    <slot shortcode="M" description="Medic" />
+    <squad side="" natosymbol="inf" callsign="Alpha" vehicletype="">
+      <slot shortcode="FTL" description="Fireteam Leader" />
+      <slot shortcode="MG" description="Machine Gunner" />
+      <slot shortcode="AMG" description="Asst. Machine Gunner" />
+      <slot shortcode="R" description="Rifleman" />
+    </squad>
+    <squad side="" natosymbol="inf" callsign="Bravo" vehicletype="" min-slotted-player-count="20">
+      <slot shortcode="FTL" description="Fireteam Leader" />
+      <slot shortcode="R" description="Rifleman" />
+      <slot shortcode="R" description="Rifleman" />
+      <slot shortcode="R" description="Rifleman" />
+    </squad>
+  </company>
+  <company side="opfor" natosymbol="inf" callsign="Vipers" vehicletype="">
+    <slot shortcode="BOS" description="Boss" />
+    <slot shortcode="M" description="Medic" />
+    <squad side="" natosymbol="inf" callsign="Alpha" vehicletype="">
+      <slot shortcode="FTL" description="Fireteam Leader" />
+      <slot shortcode="MG" description="Machine Gunner" />
+      <slot shortcode="AMG" description="Asst. Machine Gunner" />
+      <slot shortcode="R" description="Rifleman" />
+    </squad>
+    <squad side="" natosymbol="inf" callsign="Bravo" vehicletype="" min-slotted-player-count="20">
+      <slot shortcode="FTL" description="Fireteam Leader" />
+      <slot shortcode="R" description="Rifleman" />
+      <slot shortcode="R" description="Rifleman" />
+      <slot shortcode="R" description="Rifleman" />
+    </squad>
+  </company>
+</match>
