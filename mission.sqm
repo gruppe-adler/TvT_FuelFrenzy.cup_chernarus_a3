@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2146;
+		nextID=2257;
 	};
 	class Camera
 	{
 		pos[]={2837.5134,245.86446,5225.3838};
-		dir[]={-0.25929856,-0.76965439,0.583435};
-		up[]={-0.31258035,0.63846076,0.7033217};
-		aside[]={0.91381502,1.4901161e-008,0.40613079};
+		dir[]={-0.48342499,-0.86915505,0.1042581};
+		up[]={-0.849621,0.49453968,0.18323395};
+		aside[]={0.21081847,0,0.97752523};
 	};
 };
 binarizationWanted=0;
@@ -5048,7 +5048,7 @@ class CustomAttributes
 																"BOOL"
 															};
 														};
-														value=0;
+														value=1;
 													};
 												};
 												class Item1
@@ -5093,7 +5093,7 @@ class CustomAttributes
 																"STRING"
 															};
 														};
-														value="UK3CB_CHC_C_CIV";
+														value="""UK3CB_CHC_C_CIV""";
 													};
 												};
 												class Item1
@@ -5138,7 +5138,7 @@ class CustomAttributes
 																"STRING"
 															};
 														};
-														value="""UK3CB_CHC_C_Ikarus"",  ""UK3CB_CHC_C_Datsun_Civ_Closed"",  ""UK3CB_CHC_C_Datsun_Civ_Open"",  ""UK3CB_CHC_C_Hatchback"",  ""UK3CB_CHC_C_Lada"",  ""UK3CB_CHC_C_Landcruiser"",  ""UK3CB_CHC_C_Octavia"",  ""UK3CB_CHC_C_Pickup"",  ""UK3CB_CHC_C_Old_Bike"",  ""UK3CB_CHC_C_Skoda"",  ""UK3CB_CHC_C_Sedan"",  ""UK3CB_CHC_C_Gaz24"",  ""UK3CB_CHC_C_YAVA"",  ""UK3CB_CHC_C_UAZ_Open"",  ""UK3CB_CHC_C_Tractor";
+														value="[""UK3CB_CHC_C_Ikarus"",  ""UK3CB_CHC_C_Datsun_Civ_Closed"",  ""UK3CB_CHC_C_Datsun_Civ_Open"",  ""UK3CB_CHC_C_Hatchback"",  ""UK3CB_CHC_C_Lada"",  ""UK3CB_CHC_C_Landcruiser"",  ""UK3CB_CHC_C_Octavia"",  ""UK3CB_CHC_C_Pickup"",  ""UK3CB_CHC_C_Old_Bike"",  ""UK3CB_CHC_C_Skoda"",  ""UK3CB_CHC_C_Sedan"",  ""UK3CB_CHC_C_Gaz24"",  ""UK3CB_CHC_C_YAVA"",  ""UK3CB_CHC_C_UAZ_Open"",  ""UK3CB_CHC_C_Tractor""]";
 													};
 												};
 												class Item1
@@ -31643,7 +31643,7 @@ class Mission
 			fillName="SolidFull";
 			a=5;
 			b=10;
-			angle=112.99984;
+			angle=112.99979;
 			id=4725;
 			atlOffset=-267.24701;
 		};
