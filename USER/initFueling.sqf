@@ -211,7 +211,7 @@ if (hasInterface) then {
 if (isServer) then {
 
         { 
-            private _modelInfo = _x;
+            private _modelInfo = getModelInfo _x;
             if (_modelInfo select 0 == "fuelstation_03_pump_f.p3d") then { 
                 _x hideObjectGlobal true;
             };
