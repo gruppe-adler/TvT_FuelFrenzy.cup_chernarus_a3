@@ -2,6 +2,10 @@ waitUntil {
    count (missionNamespace getVariable ["FF_fuelStations", []]) > 0
 };
 
+waitUntil {
+   visibleMap
+};
+
 // create controls, delete old stuff for debug
 private _mapDisplay = findDisplay 12;
 
